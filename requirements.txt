@@ -1,0 +1,26 @@
+# BSV Wallet Dependencies - Corrected Versions
+
+# Core BSV libraries (choose one or more)
+bsvlib==0.10.0  # Latest available version (not 0.11.0)
+bit>=0.8.0  # Excellent for transaction building
+python-bitcoinlib>=0.12.0  # Alternative option
+
+# Required dependencies
+requests>=2.31.0
+qrcode[pil]>=7.4.2  # Includes PIL for image generation
+base58>=2.1.1
+ecdsa>=0.18.0
+
+# Optional enhancements
+colorama>=0.4.6  # Cross-platform colored output
+pycoin>=0.92.0  # Alternative Bitcoin library
+
+# Installation commands:
+# For basic setup:
+#   pip install bsvlib==0.10.0 requests qrcode[pil] base58
+#
+# For full transaction support:
+#   pip install bit requests qrcode[pil]
+#
+# For alternative approach:
+#   pip install python-bitcoinlib requests qrcode[pil]
